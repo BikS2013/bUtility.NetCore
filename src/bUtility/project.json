@@ -1,0 +1,34 @@
+{
+  "title": "bUtility",
+  "copyright": "Copyright ©  2016",
+  "description": "c# simple Extensions+Utilities",
+  "version": "0.0.1-*",
+
+  //"dependencies": {
+  //  "Microsoft.Extensions.DependencyModel": "1.0.0",
+  //  "NETStandard.Library": "1.6.0",
+  //  "System.Reflection.TypeExtensions": "4.1.0"
+  //},
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50",
+      "dependencies": {
+        "Microsoft.Extensions.DependencyModel": "1.0.0",
+        "NETStandard.Library": "1.6.0",
+        "System.Reflection.TypeExtensions": "4.1.0"
+      }
+    },
+    "net45": {
+      "frameworkAssemblies": {
+
+      }
+    }
+  },
+
+  "scripts": {
+    "postcompile": [
+      "dotnet pack --no-build "
+    ]
+  }
+}
