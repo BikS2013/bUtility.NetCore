@@ -25,6 +25,7 @@
       }
     }
   },
+  "buildOptions": {"keyFile": "bUtility.snk"},
 
   "scripts": {
     "postcompile": [

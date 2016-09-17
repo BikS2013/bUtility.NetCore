@@ -26,5 +26,7 @@
       "dependencies": {
       }
     }
-  }
+  },
+  "buildOptions": { "keyFile": "bUtility.snk" }
+
 }
