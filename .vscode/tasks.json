@@ -1,0 +1,28 @@
+{
+    "version": "0.1.0",
+    "windows": {
+        "command": "${workspaceRoot}/.vscode/build.bat",
+        "args": []
+    },
+    "linux": {
+        "command": "${workspaceRoot}/",
+        "args": []
+    },
+    "osx": {
+        "command": "${workspaceRoot}/",
+        "args": []
+    },
+    "isShellCommand": true,
+    "showOutput": "silent",
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": [
+                "**/project.json",
+                "${workspaceRoot}/src/"
+            ],
+            "isBuildCommand": true,
+            "showOutput": "always"
+        }
+    ]
+}
