@@ -2,4 +2,5 @@ bin
 obj
 *.user
 *.suo
+*.lock.json
 restore.dg
