@@ -1,7 +1,14 @@
 {
   "title": "bUtility",
   "copyright": "Copyright ©  2016",
-  "description": "c# simple Extensions+Utilities",
+  "description": "c# simple Extensions + Utilities",
+  "packOptions": {
+    "repository": {
+      "url": "https://github.com/BikS2013/bUtility.NetCore/tree/master/src/bUtility",
+      "type": "git"
+    },
+    "summary": "reflection Shortcuts + usefull extensions"
+  },
   "version": "0.0.1-*",
 
   //"dependencies": {

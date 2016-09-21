@@ -1,4 +1,7 @@
 {
+  "title": "bUtility.Json",
+  "copyright": "Copyright ©  2016",
+  "description": "Support for sensitive data in json serialization",
   "version": "0.0.1-*",
 
   "dependencies": {

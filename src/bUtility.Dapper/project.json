@@ -1,4 +1,7 @@
 {
+  "title": "bUtility.Dapper",
+  "copyright": "Copyright ©  2016",
+  "description": "Dapper Shortcuts for Simple database Operations",
   "version": "0.0.1-*",
   "dependencies": {
     "bUtility": "0.0.1-*",

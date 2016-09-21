@@ -1,4 +1,7 @@
 {
+  "title": "bUtility.Logging",
+  "copyright": "Copyright ©  2016",
+  "description": "Generic Logging Interface",
   "version": "0.0.1-*",
 
   //"dependencies": {
