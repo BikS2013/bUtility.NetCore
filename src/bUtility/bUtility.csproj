@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
+    <Description>c# simple Extensions + Utilities</Description>
+    <Copyright>Copyright ©  2016</Copyright>
+    <AssemblyTitle>bUtility</AssemblyTitle>
+    <VersionPrefix>0.0.1</VersionPrefix>
+    <AssemblyName>bUtility</AssemblyName>
+    <AssemblyOriginatorKeyFile>bUtility.snk</AssemblyOriginatorKeyFile>
+    <SignAssembly>true</SignAssembly>
+    <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
+    <PackageId>bUtility</PackageId>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/BikS2013/bUtility.NetCore/tree/master/src/bUtility</RepositoryUrl>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+ 
+</Project>

@@ -4,3 +4,4 @@ obj
 *.suo
 *.lock.json
 restore.dg
+/.vs

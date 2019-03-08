@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{013CAB5A-C044-4116-9187-D6A09DA69AD4}"
 EndProject
@@ -10,13 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "bUtility", "src\bUtility\bUtility.xproj", "{98DA0D67-D765-4A26-A153-D0D060F75D69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bUtility", "src\bUtility\bUtility.csproj", "{98DA0D67-D765-4A26-A153-D0D060F75D69}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "bUtility.Logging", "src\bUtility.Logging\bUtility.Logging.xproj", "{B54C900A-ACF3-4688-9053-7234F573B847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bUtility.Logging", "src\bUtility.Logging\bUtility.Logging.csproj", "{B54C900A-ACF3-4688-9053-7234F573B847}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "bUtility.Dapper", "src\bUtility.Dapper\bUtility.Dapper.xproj", "{829DF365-57FF-4B37-A1A6-734279200E23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bUtility.Dapper", "src\bUtility.Dapper\bUtility.Dapper.csproj", "{829DF365-57FF-4B37-A1A6-734279200E23}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "bUtility.Json", "src\bUtility.Json\bUtility.Json.xproj", "{C068ED8D-7712-4414-B7D8-9790B66D2D23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bUtility.Json", "src\bUtility.Json\bUtility.Json.csproj", "{C068ED8D-7712-4414-B7D8-9790B66D2D23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,5 +49,8 @@ Global
 		{B54C900A-ACF3-4688-9053-7234F573B847} = {013CAB5A-C044-4116-9187-D6A09DA69AD4}
 		{829DF365-57FF-4B37-A1A6-734279200E23} = {013CAB5A-C044-4116-9187-D6A09DA69AD4}
 		{C068ED8D-7712-4414-B7D8-9790B66D2D23} = {013CAB5A-C044-4116-9187-D6A09DA69AD4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C205864D-B39F-4CCC-B878-03FFDBCE281E}
 	EndGlobalSection
 EndGlobal
